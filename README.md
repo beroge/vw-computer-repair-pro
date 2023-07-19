@@ -1,0 +1,1 @@
+This is the wordpress template for the pc-nm.com site

@@ -109,6 +109,8 @@ function vw_computer_repair_pro_scripts() {
   wp_enqueue_script( 'smooth-scroll', get_template_directory_uri() . '/assets/js/SmoothScroll.js',array('jquery'),'',true);
   wp_enqueue_script( 'jquery', get_template_directory_uri() . '/assets/js/jquery.min.js', array('jquery'), true);
   wp_enqueue_script( 'vw-computer-repair-pro-customscripts', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'),'', true );
+  // PCNM custom js added
+  wp_enqueue_script( 'pcnm-custom-scripts', get_template_directory_uri() . '/assets/js/pcnm.js', array('jquery'),'', true );
   wp_enqueue_script( 'wow', get_template_directory_uri() . '/assets/js/wow.min.js', array('jquery'),'', true );
   if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
     wp_enqueue_script( 'comment-reply' );

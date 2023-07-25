@@ -777,7 +777,7 @@ h3:after{
 #our-team .team-title{
   font:600 20px var(--font-fira);
   letter-spacing: 0px;
-  color: var(--color-15);
+  /* color: var(--color-15); */
   position: relative;
 }
 #our-team .team-title:before{
@@ -808,14 +808,15 @@ h3:after{
 #our-team .team-info{
   align-items: center;
 }
-#our-team .team-box{
+
+ #our-team .team-box{
   border-top: 3px solid var(--color-d2);
   border-bottom: 3px solid var(--color-d2);
   border-right: 3px solid var(--color-d2);
 }
 #our-team .team-content:hover .team-box{ 
   border-color: var(--color-hi-23);
-}
+} 
 #our-team .team-content:hover .team-box p i,#our-team .team-content .social-icons a:hover i{
   color: var(--color-15);
 }

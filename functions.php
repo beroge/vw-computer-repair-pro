@@ -101,6 +101,8 @@ function vw_computer_repair_pro_scripts() {
   wp_enqueue_style( 'font-awesome', get_template_directory_uri().'/assets/css/fontawesome-all.min.css' );
   wp_enqueue_style( 'effect', get_template_directory_uri().'/assets/css/effect.css' );
   wp_enqueue_style( 'google-font',get_template_directory_uri().'/assets/css/google-font.css' );
+  //PCNM custom css styles added
+  wp_enqueue_style( 'pcnm-custom-styles',get_template_directory_uri().'/assets/css/pcnm.css' );
   // ---------- JS Enqueue -----------
   wp_enqueue_script( 'tether', get_template_directory_uri() . '/assets/js/tether.js', array('jquery'), '',true);
   wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/assets/js/bootstrap.min.js',array('jquery'),'',true);

@@ -1,1 +1,1 @@
-This is the wordpress template for the pc-nm.com site
+This is the wordpress template for the pc-nm.com site (in full site on local)

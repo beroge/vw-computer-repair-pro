@@ -74,3 +74,6 @@ $partners_loop="false";
 	</div><!-- #footer_box -->
 	<span id="partners-loop" class="d-none"><?php echo esc_html($partners_loop); ?></span>
 </div>
+<!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">function add_chatinline(){var hccid=15281293;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline();</script>
